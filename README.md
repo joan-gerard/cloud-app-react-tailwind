@@ -2,6 +2,8 @@
 
 A "Cloud Management" frontend website using React JS and Tailwind CSS
 
+Live Demo [here](https://cloud-app-react-tailwind.vercel.app/)
+
 ## Available Scripts
 
 In the project directory, you can run:
