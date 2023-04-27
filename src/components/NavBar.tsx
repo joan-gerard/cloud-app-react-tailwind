@@ -24,7 +24,7 @@ const NavBar = () => {
           <button className="border-none bg-transparent text-black mr-4">
             Sign In
           </button>
-          <button className="px-8 py-3">Sign Up</button>
+          <button className="px-8">Sign Up</button>
         </div>
         <div className="md:hidden" onClick={() => handleToggleNavMenu()}>
           {openNavMenu ? (
@@ -47,10 +47,10 @@ const NavBar = () => {
           <li className="border-b-2 border-zinc-300 w-full">Platforms</li>
           <li className="border-b-2 border-zinc-300 w-full">Pricing</li>
           <div className="flex flex-col">
-            <button className="bg-transparent text-indigo-600 px-8 py-3 mb-4">
+            <button className="bg-transparent text-indigo-600 px-8 mb-4">
               Sign In
             </button>
-            <button className="px-8 py-3">Sign Up</button>
+            <button className="px-8">Sign Up</button>
           </div>
         </ul>
       </div>
