@@ -26,7 +26,7 @@ const NavBar = () => {
           </button>
           <button className="px-8">Sign Up</button>
         </div>
-        <div className="md:hidden" onClick={() => handleToggleNavMenu()}>
+        <div className="md:hidden mr-4" onClick={() => handleToggleNavMenu()}>
           {openNavMenu ? (
             <XMarkIcon className="w-5" />
           ) : (
