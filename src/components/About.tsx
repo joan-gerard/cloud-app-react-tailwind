@@ -1,8 +1,11 @@
 import React from "react";
+import { Element } from "react-scroll";
 
 const About = () => {
   return (
-    <div className="w-full my-32">
+    <div data-name="about" className="w-full my-32">
+      <Element name="about"></Element>
+
       <div className="max-w-[1240px] mx-auto">
         <div className="text-center">
           <h2 className="text-5xl font-bold">
